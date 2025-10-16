@@ -1,0 +1,11 @@
+colorama
+pytz
+pillow
+requests
+beautifulsoup4
+pystyle
+qrcode
+aiodhttp
+discord.py
+googletrans
+promptpay
