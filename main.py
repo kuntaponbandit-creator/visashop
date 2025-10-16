@@ -89,7 +89,7 @@ except:
 
 
 
-TOKEN = "MTQyNDM4MTA0MDA3NTczNTA2MA.GOziNz.YcT1qe6drLYEYQjcge6HAAJ_9Tegye-w1LqUCo" # TOKEN BOT
+TOKEN = ".ใส่ที่นี่" # TOKEN BOT
 
 
 
@@ -209,6 +209,7 @@ async def bot(interaction: commands.Context, channel_id: str):
 async def bot_error(interaction: discord.Interaction, error):
         if isinstance(error, app_commands.errors.MissingPermissions):
             await interaction.response.send_message(f"{Alert}", ephemeral=True)
+
 
 
 client.run(TOKEN)
